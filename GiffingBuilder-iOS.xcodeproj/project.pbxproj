@@ -15,11 +15,11 @@
 		F62819BD1BAFF6AA008C1D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62819BC1BAFF6AA008C1D7B /* Images.xcassets */; };
 		F62819C01BAFF6AA008C1D7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62819BE1BAFF6AA008C1D7B /* LaunchScreen.xib */; };
 		F62819CC1BAFF6AA008C1D7B /* GiffingBuilder_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62819CB1BAFF6AA008C1D7B /* GiffingBuilder_iOSTests.swift */; };
-		F62819D91BAFF6DD008C1D7B /* FrameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62819D51BAFF6DD008C1D7B /* FrameItem.swift */; };
 		F62819DA1BAFF6DD008C1D7B /* Infos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62819D61BAFF6DD008C1D7B /* Infos.swift */; };
-		F62819DB1BAFF6DD008C1D7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62819D71BAFF6DD008C1D7B /* MainView.swift */; };
-		F62819DC1BAFF6DD008C1D7B /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62819D81BAFF6DD008C1D7B /* TestVC.swift */; };
 		FD845EC31BC1B09E008086D8 /* GifBuilderDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD845EC21BC1B09E008086D8 /* GifBuilderDAO.swift */; };
+		FD94D6BC1BCA074800E807C1 /* FrameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94D6BB1BCA074800E807C1 /* FrameItem.swift */; };
+		FD94D6BF1BCA075D00E807C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94D6BD1BCA075D00E807C1 /* MainView.swift */; };
+		FD94D6C01BCA075D00E807C1 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94D6BE1BCA075D00E807C1 /* TestVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +45,11 @@
 		F62819C51BAFF6AA008C1D7B /* GiffingBuilder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GiffingBuilder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62819CA1BAFF6AA008C1D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62819CB1BAFF6AA008C1D7B /* GiffingBuilder_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiffingBuilder_iOSTests.swift; sourceTree = "<group>"; };
-		F62819D51BAFF6DD008C1D7B /* FrameItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameItem.swift; path = ../../GifBuilder/GifBuilder/FrameItem.swift; sourceTree = "<group>"; };
 		F62819D61BAFF6DD008C1D7B /* Infos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Infos.swift; path = ../../GifBuilder/GifBuilder/Infos.swift; sourceTree = "<group>"; };
-		F62819D71BAFF6DD008C1D7B /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../../GifBuilder/GifBuilder/MainView.swift; sourceTree = "<group>"; };
-		F62819D81BAFF6DD008C1D7B /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestVC.swift; path = ../../GifBuilder/GifBuilder/TestVC.swift; sourceTree = "<group>"; };
 		FD845EC21BC1B09E008086D8 /* GifBuilderDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifBuilderDAO.swift; sourceTree = "<group>"; };
+		FD94D6BB1BCA074800E807C1 /* FrameItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameItem.swift; sourceTree = "<group>"; };
+		FD94D6BD1BCA075D00E807C1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FD94D6BE1BCA075D00E807C1 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +91,10 @@
 		F62819B21BAFF6AA008C1D7B /* GiffingBuilder-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F62819D51BAFF6DD008C1D7B /* FrameItem.swift */,
+				FD94D6BB1BCA074800E807C1 /* FrameItem.swift */,
+				FD94D6BD1BCA075D00E807C1 /* MainView.swift */,
+				FD94D6BE1BCA075D00E807C1 /* TestVC.swift */,
 				F62819D61BAFF6DD008C1D7B /* Infos.swift */,
-				F62819D71BAFF6DD008C1D7B /* MainView.swift */,
-				F62819D81BAFF6DD008C1D7B /* TestVC.swift */,
 				FD845EC21BC1B09E008086D8 /* GifBuilderDAO.swift */,
 				F611D9C31BB09707000E6723 /* FaceView.swift */,
 				F611D9C11BB094F7000E6723 /* DrawingUtils.swift */,
@@ -235,14 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F62819B81BAFF6AA008C1D7B /* ViewController.swift in Sources */,
+				FD94D6BF1BCA075D00E807C1 /* MainView.swift in Sources */,
 				FD845EC31BC1B09E008086D8 /* GifBuilderDAO.swift in Sources */,
 				F611D9C21BB094F7000E6723 /* DrawingUtils.swift in Sources */,
 				F62819DA1BAFF6DD008C1D7B /* Infos.swift in Sources */,
 				F611D9C41BB09707000E6723 /* FaceView.swift in Sources */,
 				F62819B61BAFF6AA008C1D7B /* AppDelegate.swift in Sources */,
-				F62819DB1BAFF6DD008C1D7B /* MainView.swift in Sources */,
-				F62819DC1BAFF6DD008C1D7B /* TestVC.swift in Sources */,
-				F62819D91BAFF6DD008C1D7B /* FrameItem.swift in Sources */,
+				FD94D6C01BCA075D00E807C1 /* TestVC.swift in Sources */,
+				FD94D6BC1BCA074800E807C1 /* FrameItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
