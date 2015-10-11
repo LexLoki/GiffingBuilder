@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51275FEF-4D4D-4846-AE37-29D67B5139E2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GiffingBuilder-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BB93ED50FA2CD74FA78A3D1580B6138B4BD01A7</key>
+		<string>https://github.com/LexLoki/GuanabaraStageBuilder</string>
+		<key>5D297DF053A3F3CF67CE47764D80C5DE24783761</key>
+		<string>https://github.com/LexLoki/GiffingBuilder</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GiffingBuilder-iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BB93ED50FA2CD74FA78A3D1580B6138B4BD01A7</key>
+		<string>../../..</string>
+		<key>5D297DF053A3F3CF67CE47764D80C5DE24783761</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LexLoki/GiffingBuilder</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D297DF053A3F3CF67CE47764D80C5DE24783761</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BB93ED50FA2CD74FA78A3D1580B6138B4BD01A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D297DF053A3F3CF67CE47764D80C5DE24783761</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GiffingBuilder-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
