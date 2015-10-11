@@ -46,8 +46,8 @@ class FaceView : UIView{
         taxPos = CGPoint(x: center.x/withSize.width, y: center.y/withSize.height);
         taxSize = CGSize(width: bounds.size.width/withSize.width, height: bounds.size.height/withSize.height);
         
-        println(taxPos);
-        println(taxSize);
+        print(taxPos);
+        print(taxSize);
         
     }
     

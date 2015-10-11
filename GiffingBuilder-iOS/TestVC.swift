@@ -53,7 +53,7 @@ class TestVC: UIViewController, UICollectionViewDelegateFlowLayout, UICollection
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cell : FrameItem =  collectionView.dequeueReusableCellWithReuseIdentifier("cellIdentifier", forIndexPath: indexPath) as! FrameItem;
+        let cell : FrameItem =  collectionView.dequeueReusableCellWithReuseIdentifier("cellIdentifier", forIndexPath: indexPath) as! FrameItem;
         cell.imgView.image = contents[indexPath.row];
         cell.setupCell(faceView[indexPath.row]);
         //println(indexPath.row);
@@ -61,9 +61,9 @@ class TestVC: UIViewController, UICollectionViewDelegateFlowLayout, UICollection
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        println(indexPath.row);
+        print(indexPath.row);
         if(myView.actualFace != nil){
-            println("cmon");
+            print("cmon");
             myView.actualFace.saveProperties(myView.actualImg.frame.size);
             myView.actualFace.removeFromSuperview();
             //saveFaceData();
@@ -82,7 +82,7 @@ class TestVC: UIViewController, UICollectionViewDelegateFlowLayout, UICollection
         let targetFace = faceView[selectedIndex];
         
         let imgSize = img.frame.size; let faceSize = face.bounds.size;
-        targetFace.taxSize = CGSize(width: faceSize.width/imgSize.width, height: faceSize.height/imgSize.height);
+        targetFace.taxSize = CGSize(width: (faceSize.width/imgSize.width)*2, height: faceSize.height/imgSize.height);
         
         let imgPos = face.center;
         targetFace.taxPos = CGPoint(x: imgPos.x/imgSize.width, y: imgPos.y/imgSize.height);
@@ -178,8 +178,10 @@ class TestVC: UIViewController, UICollectionViewDelegateFlowLayout, UICollection
         presentViewController(alert, animated: true, completion: nil);
     }
     
-    private func okAction(alert : UIAlertAction!){
-        let name:String = (self.alert.textFields?.first as! UITextField).text;
+    private func okAction(alert : UIAlertAction!)
+    {
+        let textField = self.alert.textFields?.first
+        let name = textField?.text!
         let message : String;
         let title : String;
         if(name == ""){

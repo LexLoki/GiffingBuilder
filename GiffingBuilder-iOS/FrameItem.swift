@@ -22,7 +22,7 @@ class FrameItem: UICollectionViewCell {
     var face : FaceView!;
     
     override init(frame: CGRect) {
-        let cSize = Infos.sharedInstance.cellSize;
+        _ = Infos.sharedInstance.cellSize;
         super.init(frame: CGRect(origin: CGPointZero, size: frame.size));
         imgView = UIImageView(frame: CGRect(origin: CGPointZero, size: frame.size));
         
