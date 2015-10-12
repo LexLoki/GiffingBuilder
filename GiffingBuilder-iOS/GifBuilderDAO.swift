@@ -18,7 +18,7 @@ class GifBuilderDAO{
         let quant = gif.count;
         for(var i=0; i<quant; i++){
             let frame = gif[i];
-            let frameInfo = NSDictionary(objects: [dictFromPoint(frame.taxPos), dictFromPoint(frame.taxPos), frame.rotation], forKeys: ["position","size","rotation"]);
+            let frameInfo = NSDictionary(objects: [dictFromPoint(frame.taxPos), dictFromSize(frame.taxSize), frame.rotation], forKeys: ["position","size","rotation"]);
             frames.insertObject(frameInfo, atIndex: frames.count);
         }
         let dict = NSDictionary(objects: ["dmitriGif",frames], forKeys: ["name","framesInfo"]);
@@ -39,6 +39,10 @@ class GifBuilderDAO{
             return false;
         }
         
+    }
+    
+    class private func dictFromSize (size : CGSize) -> NSDictionary{
+        return dictFromPoint(CGPointMake(size.width, size.height));
     }
     
     class private func dictFromPoint(point : CGPoint) -> NSDictionary{
